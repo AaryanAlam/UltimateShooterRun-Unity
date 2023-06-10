@@ -282,6 +282,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d627aad6ae073574683c66c97d8f31b0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 1907538909}
+  takeNum: 0a0000000f00000014000000190000001e000000
+  playerManager: {fileID: 859827637488600355}
 --- !u!1 &578527034
 GameObject:
   m_ObjectHideFlags: 0
@@ -1592,11 +1595,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 859827637488600357, guid: 8ca11d2d76964df48aa500aadd549d3b,
-        type: 3}
-      propertyPath: instantiationInterval
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6936654207654016781, guid: 8ca11d2d76964df48aa500aadd549d3b,
         type: 3}
       propertyPath: m_RootOrder

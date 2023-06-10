@@ -26356,7 +26356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   swipeThreshold: 50
-  moveSpeed: 5
+  moveSpeed: 15
 --- !u!143 &6936654207654016780
 CharacterController:
   m_ObjectHideFlags: 0
@@ -26387,7 +26387,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16e9cdb283a55994089bb71db548b681, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  instantiationInterval: 1
+  bullet: {fileID: 4905299288292758599, guid: 8a5e42f7a228666459fe58e9ef9d1ae7, type: 3}
+  instantiationInterval: 100
 --- !u!1 &7748751581613447795
 GameObject:
   m_ObjectHideFlags: 0

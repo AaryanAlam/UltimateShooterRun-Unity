@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -7,7 +8,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField]
     private GameObject bullet;
     private GameObject bulletHolder;
-    public float instantiationInterval = 1f;
+    public int instantiationInterval;
 
     void Start()
     {
@@ -18,6 +19,13 @@ public class PlayerManager : MonoBehaviour
     }
     private void Awake()
     {
+        //StartCoroutine(InstantiateRepeatedly());
+
+    }
+
+    private void Update()
+    {
+        //StartCoroutine(InstantiateRepeatedly());
 
     }
 

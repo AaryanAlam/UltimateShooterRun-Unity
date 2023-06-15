@@ -17,6 +17,7 @@ public class NegGate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        playerManager = GameObject.FindWithTag("Player").GetComponent<PlayerManager>();
 
     }
 
@@ -43,6 +44,8 @@ public class NegGate : MonoBehaviour
             if (int.TryParse(text.text.Substring(2), out parsedInt))
             {
                 playerManager.instantiationInterval *= parsedInt;
+                playerManager.StartCoroutine(playerManager.InstantiateRepeatedly());
+
             }
         }
     }

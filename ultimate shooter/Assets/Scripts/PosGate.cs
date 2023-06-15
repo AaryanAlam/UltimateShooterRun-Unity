@@ -19,7 +19,7 @@ public class PosGate : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        playerManager = GameObject.FindWithTag("Player").GetComponent<PlayerManager>();
     }
 
     private void Awake()
@@ -45,6 +45,7 @@ public class PosGate : MonoBehaviour
             if (int.TryParse(text.text.Substring(2), out parsedInt))
             {
                 playerManager.instantiationInterval = parsedInt / 8;
+                playerManager.StartCoroutine(playerManager.InstantiateRepeatedly());
             }
         }
     }

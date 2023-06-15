@@ -29,7 +29,7 @@ public class PlayerManager : MonoBehaviour
 
     }
 
-    IEnumerator InstantiateRepeatedly()
+   public IEnumerator InstantiateRepeatedly()
     {
         while (true)
         {

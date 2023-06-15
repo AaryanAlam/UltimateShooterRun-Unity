@@ -5,7 +5,7 @@ using UnityEngine;
 public class BulletForward : MonoBehaviour
 {
 
-    public float velocity = 1400f;
+    float velocity = 140;
 
     private void Awake()
     {

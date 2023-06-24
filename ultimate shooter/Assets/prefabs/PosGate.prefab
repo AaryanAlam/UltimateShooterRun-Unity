@@ -50,8 +50,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 2
-  m_Camera: {fileID: 8068443141850204688, guid: 1b111e7090a96c94f83c9891f98be1f6,
-    type: 3}
+  m_Camera: {fileID: 0}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -263,8 +262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   text: {fileID: 9178773956288007007}
   addNum: 0a000000140000001e00000028000000
-  playerManager: {fileID: 859827637488600357, guid: 8ca11d2d76964df48aa500aadd549d3b,
-    type: 3}
+  playerManager: {fileID: 0}
 --- !u!1 &9178773956288007005
 GameObject:
   m_ObjectHideFlags: 0
